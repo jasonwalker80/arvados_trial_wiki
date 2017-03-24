@@ -1,4 +1,4 @@
-LSB_QUEUE='alignment'
+LSB_QUEUE='research-hpc'
 
 JAVA_EIGHT=/gapp/x64linux/opt/java/jre/jre1.8.0_31/bin/java
 
@@ -55,4 +55,4 @@ REFERENCE_SEQUENCE_CHUNKS=50
 VEP_CACHE=$SOMATIC_HOME/software/VEP_cache
 
 export PATH="$SOMATIC_HOME/software/bin:$PATH"
-#export LSB_SUB_ADDITIONAL='docker(registry.gsc.wustl.edu/genome/genome_perl_environment)'
+export LSB_SUB_ADDITIONAL='docker(registry.gsc.wustl.edu/genome/genome_perl_environment)'
